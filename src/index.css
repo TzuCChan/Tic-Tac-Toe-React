@@ -1,4 +1,6 @@
-body {}
+body {
+  font: 0px;
+}
 
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
