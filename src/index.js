@@ -4,6 +4,16 @@ import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
+function Square(props) {
+  return (
+    <button 
+    className="square" 
+    onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
