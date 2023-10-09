@@ -1,3 +1,9 @@
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
 body {
   font: 0px;
   margin: 0px;
