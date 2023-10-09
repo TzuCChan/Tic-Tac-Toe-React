@@ -4,6 +4,10 @@
   display: table;
 }
 
+ol, ul {
+  padding-left: 300px;
+}
+
 body {
   font: 0px;
   margin: 0px;
