@@ -47,6 +47,15 @@ class Board extends React.Component {
   }
 }
 
+class Game extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      history: []
+    }
+  }
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
