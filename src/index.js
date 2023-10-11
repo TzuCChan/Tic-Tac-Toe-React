@@ -86,6 +86,10 @@ class Game extends React.Component {
       xIsNext: (step % 2) === 0
     });
   }
+
+  render() {
+    const history = this.state.history;
+  }
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
