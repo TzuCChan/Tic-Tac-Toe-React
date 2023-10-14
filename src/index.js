@@ -131,7 +131,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<Game />);
 
 function calculateWinner(squares) {
-  const lines = [];
+  const lines = [
+      [0, 1, 2],
+      [3, 4, 5],
+  ];
 }
   
   // <React.StrictMode>
