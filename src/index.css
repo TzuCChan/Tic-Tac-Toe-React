@@ -1,3 +1,10 @@
+.square {
+  color: blue;
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+}
+
 .status {
   margin-bottom: 10px;
 }
