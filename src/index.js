@@ -136,7 +136,9 @@ function calculateWinner(squares) {
     [3, 4, 5],
     [6, 7, 8],
   ];
-      for (let i = 0; i < lines.length; i++) {}
+  for (let i = 0; i < lines.length; i++) {
+    const [a, b, c] = lines[i];
+      }
 }
   
   // <React.StrictMode>
