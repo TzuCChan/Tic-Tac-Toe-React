@@ -1,3 +1,7 @@
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
 .square:focus {
   outline: none;
 }
